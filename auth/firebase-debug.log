@@ -1,0 +1,41 @@
+[debug] [2018-01-01T23:12:53.814Z] ----------------------------------------------------------------------
+[debug] [2018-01-01T23:12:53.814Z] Command:       D:\nodejs\node.exe C:\Users\chris\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-01T23:12:53.814Z] CLI Version:   3.16.0
+[debug] [2018-01-01T23:12:53.814Z] Platform:      win32
+[debug] [2018-01-01T23:12:53.814Z] Node Version:  v8.9.0
+[debug] [2018-01-01T23:12:53.814Z] Time:          Mon Jan 01 2018 18:12:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-01-01T23:12:53.814Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-01T23:12:53.829Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-01T23:12:53.829Z] > authorizing via signed-in user
+[debug] [2018-01-01T23:12:53.829Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-01T23:12:53.829Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/iDBqjKHNnk2zX9vKJCalM-x45kDN7Y1w7JEqj9QTrSk',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jan 01 2018 18:12:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-01-01T23:12:54.098Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-01T23:12:54.114Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fbauth2-c198b  
+  
+ Mon Jan 01 2018 18:12:54 GMT-0500 (Eastern Standard Time)
+[debug] [2018-01-01T23:12:54.505Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-01T23:12:54.505Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fbauth2-c198b/tokens  
+  
+ Mon Jan 01 2018 18:12:54 GMT-0500 (Eastern Standard Time)
+[debug] [2018-01-01T23:12:54.893Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Projects\quickstart-js\auth'...
+[info] 
+[debug] [2018-01-01T23:12:54.909Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fbauth2-c198b  
+  
+ Mon Jan 01 2018 18:12:54 GMT-0500 (Eastern Standard Time)
+[debug] [2018-01-01T23:12:55.303Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-01T23:12:55.305Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/66700212038/clients/_:getWebAppConfig  
+  
+ Mon Jan 01 2018 18:12:55 GMT-0500 (Eastern Standard Time)
+[debug] [2018-01-01T23:12:55.798Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
